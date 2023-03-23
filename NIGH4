@@ -1,0 +1,43 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("RedBull  NIGH4#9124", "BloodTheme")
+
+local Tab = Window:NewTab("Da Hood")
+local Section = Tab:NewSection("Da Hood")
+Section:NewButton("Silent Aim", "Very Good Aim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/SilentAimAimLock.lua"))()
+end)
+
+Section:NewButton("Fadded", "Cool Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+
+local Tab = Window:NewTab("Hood Modded")
+local Section = Tab:NewSection("Hood Modded")
+Section:NewButton("Modded GUI Script", "Very Good", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+end)
+
+Section:NewButton("Oblivion", "Very Good", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/loader.lua"))()
+end)
+
+
+local Tab = Window:NewTab("Kat")
+local Section = Tab:NewSection("Kat")
+Section:NewButton("MULTITOOL", "Very Good", function()
+    loadstring(game:HttpGet("https://pastebin.com/LERPpYdA"))()
+end)
+Section:NewButton("Owl Hub", "Very Good", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+
+
+local Tab = Window:NewTab("DOORS")
+local Section = Tab:NewSection("DOORS")
+Section:NewButton("Doors 2.0", "Very Good", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+Section:NewButton("Vynixius", "Very Good", function()
+    loadstring(game:HttpGet('https://robloxscripts.co.uk/request-script/Vynixius-140'))()
+end)
